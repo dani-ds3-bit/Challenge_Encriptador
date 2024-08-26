@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" href="/Assets/Icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Encriptador challenge</title>
+</head>
+<body class="">
+    <header>
+        <img class="header-logo" src="./Imagenes/Logo.png" alt="logo">
+    </header>
+    <main>
+        <section class="input-section">
+            <div class="text-input-container">
+                <textarea placeholder="Ingrese el texto aqui" class="text-input"></textarea>
+            </div>
+            <div class="alert-message">
+                <img src="./Imagenes/Alerta.png" alt="alerta">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="button-group">
+                <input type="button" class="btn-encrypt" value="Encriptar">
+                <input type="button" class="btn-decrypt" value="Desencriptar">
+                <input type="button" class="btn-clear" value="Borrar">
+            </div>
+        </section>
+        <section class="output-section">
+            <div class="image-container">
+                <img src="./Imagenes/Aviso_Muñeco.png" alt="muñico">
+            </div>
+            <div class="message-container">
+                <h3>Ningún mensaje fue <br> encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o <br> desencriptar.</p>
+            </div>
+            <div class="result-container">
+                <textarea class="text-input result-text" readonly></textarea>
+            </div>
+            <div class="copy-button-container">
+                <input type="button" class="btn-copy" value="Copiar">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://github.com/dani-ds3-bit" target="_blank" class="social-icon">
+                <img src="./Assets/github.png" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/jes%C3%BAs-daniel-luna-juarez-2a6abb2b6" target="_blank" class="social-icon">
+                <img src="./Assets/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/dani.__.ds3/" target="_blank" class="social-icon">
+                <img src="./Assets/instagram.png" alt="Instagram">
+            </a>
+        </div>
+    </footer>
+    <script src="./Script.js"></script>
+</body>
+</html>
